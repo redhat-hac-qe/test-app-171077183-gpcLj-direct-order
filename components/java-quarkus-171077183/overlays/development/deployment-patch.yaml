@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: java-quarkus-171077183
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/hacdev/debb6fax-tenant/test-app-171077183/java-quarkus-171077183@sha256:b2d3d1dad7986e933f9bde159f025750cbfaddc6accb51f6eb28bb61a92fd3ec
+        name: my-java-quarkus
+        resources: {}
+status: {}
